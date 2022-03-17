@@ -1,0 +1,1 @@
+let Bicicleta = require("../models/bicicleta")
