@@ -27,10 +27,11 @@ Bicicleta.removeById = function (aBiciId) {
     Bicicleta.allBicis.splice(aBiciIndex, 1) // le indico desde que posicion quiero eliminar el elemento del array y cauntos elementos
 }
 
-let a = new Bicicleta(1, "rojo", "urbana", [-34.559340412821996, -58.465884366871215])
-let b = new Bicicleta(2, "blanco", "urbana", [-34.57390119716306, -58.460545723883484])
+// let a = new Bicicleta(1, "rojo", "urbana", [-34.559340412821996, -58.465884366871215])
+// let b = new Bicicleta(2, "blanco", "urbana", [-34.57390119716306, -58.460545723883484])
 
-Bicicleta.add(a)
-Bicicleta.add(b)
+// Bicicleta.add(a)
+// Bicicleta.add(b)
+
 
 module.exports = Bicicleta
