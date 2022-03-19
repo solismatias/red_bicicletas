@@ -11,3 +11,5 @@ fetch('api/bicicletas')
     .then(data => data.bicicletas.forEach(bicicleta => {
         L.marker(bicicleta.ubicacion, { title: bicicleta.id }).addTo(map);
     }))
+
+
